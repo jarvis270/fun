@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+  int age;
+
+  printf("Tell me your Age:");
+  scanf("%d",&age);
+  if(age>18 && age<100){
+    printf("you can watch porn but firstly you can pay me than i can provide link");
+  }
+else if(age==18){
+  printf("rukjaa bhadwe");
+}
+  else if(age>=100){
+    printf("tumhara samay pur gaya hai, ab khada nahi hoga koshish bekaar h");
+  }
+  else{
+    printf("BSDK pahle jawan to hoja jhaant ke baal");
+  }
+  return 0;
+}
